@@ -4,7 +4,7 @@ import React from 'react';
 const Auth =() => {
   return 
     <div>
-      <form>
+      <form onSubmit={handleSubmit}>
         <Box 
         maxWidth={400}
         display="flex" 

@@ -1,9 +1,20 @@
-import React from 'react'
+import React,{useEffect} from 'react';
 
-function Blogs() {
-  return (
-    <div>Blogs</div>
-  )
-}
+const Blogs = () => {
+  const [blogs, setBlogs]= useState();
+  const setRequest = async () =>{
+    const data = await res.data;
+    return data;
+  }
+  useEffect(() =>{
+    sensRequest()
+  },[])
+   return <div>
+
+   </div>
+};
+
+  
+
 
 export default Blogs

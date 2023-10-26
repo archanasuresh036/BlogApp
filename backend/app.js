@@ -13,9 +13,9 @@ mongoose
 .connect(
     "mongodb+srv://archanasuresh036:U7gojt5e4ZxbWTHk@cluster0.0ctkgxi.mongodb.net/Blog?retryWrites=true&w=majority"
 )
-.then(()=>app.listen(5000))
+.then(()=>app.listen(3000))
 .then(()=>
-console.log("Connected To Database and Listening To Localhos 5000")
+console.log("Connected To Database and Listening To Localhos 3000")
 )
 .catch((err) => console.log(err));
 
